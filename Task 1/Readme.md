@@ -1,4 +1,4 @@
-<div align="center"><h1>Theroy of BabySoC Fundamentals & Functional Modelling</h1></div>
+<div align="center"><h1>Task 1: Theroy of BabySoC Fundamentals & Functional Modelling</h1></div>
 
 ## 📘 What is a System-on-Chip (SoC)?  
 
