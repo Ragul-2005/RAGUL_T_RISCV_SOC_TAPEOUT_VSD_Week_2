@@ -1,4 +1,4 @@
-<div align="center"> <b>📘 Week2 — BabySoC Fundamentals & Functional Modelling </b></div>
+<div align="center"> <h1>📘 Week2 — BabySoC Fundamentals & Functional Modelling </h1></div>
 
 ## 📌 Overview  
 This folder contains my completed work for **Week2** of the RISC-V SoC Tapeout Program.  
