@@ -51,6 +51,6 @@ The outcome includes both **theoretical understanding of SoC fundamentals** and 
 RAGUL T — RISC-V SoC Tapeout (VSD)*  
 
 <div align="center">
-🌟 **End of Week 2 — Successfully Completed!** 🌟
+🌟 End of Week 2 — Successfully Completed! 🌟
 </div>
 
