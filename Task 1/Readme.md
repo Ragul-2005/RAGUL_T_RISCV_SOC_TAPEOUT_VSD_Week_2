@@ -80,3 +80,53 @@ A **System-on-Chip (SoC)** is an integrated circuit that combines all major comp
    - Combines programmable logic (FPGA) with CPU cores and peripherals.  
    - Flexible for prototyping or specialized computing tasks.  
 
+---
+
+## 🍼 What is BabySoC?  
+
+**BabySoC** is a **simplified, educational System-on-Chip model** designed to help learners understand SoC design concepts without the complexity of industrial SoCs.  
+
+---
+
+### 🌱 Why BabySoC is Useful  
+- 🎯 **Simplified architecture**: Focuses on core components—CPU, memory, and peripherals.  
+- 🧠 **Learning-friendly**: Ideal for understanding system-level interactions, clocking, and dataflow.  
+- 🛠️ **Hands-on practice**: Allows students to simulate, analyze, and debug the SoC before moving to complex RTL or physical design.
+
+---
+
+### ⚡ Functionality of BabySoC  
+- CPU executes instructions and communicates with memory and peripherals.  
+- Memory stores instructions and data for CPU operations.  
+- Peripherals allow interaction with external devices or simulated I/O modules.  
+- Interconnect ensures smooth communication between all modules.
+
+---
+
+### 🛠️ Role of Functional Modelling  
+Functional modelling in BabySoC allows:  
+- ✅ **Early validation** of design behavior without worrying about low-level implementation.  
+- ✅ Observation of **reset, clocking, and dataflow** between modules.  
+- ✅ Identification of **design flaws or logical errors** before RTL design or fabrication.  
+- ✅ Using **Icarus Verilog** and **GTKWave** to simulate and visualize system behavior in a controlled environment.  
+
+---
+
+### 🎓 Learning Outcomes  
+
+By completing Task 1, I was able to:  
+- 🧩 Understand the **fundamentals of System-on-Chip (SoC) design**.  
+- 🍼 Learn the **purpose and structure of BabySoC** as a simplified educational model.  
+- ⚡ Appreciate the **functionality of core modules**: CPU, memory, peripherals, and interconnect.  
+- 🛠️ Grasp the **role of functional modelling** in validating system behavior before RTL and physical design.  
+- 🌟 Gain a solid foundation for **hands-on simulation and advanced SoC tasks** in subsequent weeks.  
+
+---
+
+✍️ *Prepared by:<br>  
+**RAGUL T — RISC-V SoC Tapeout (VSD)**  
+
+<div align="center">
+🌟 **End of Task 1 — Successfully Completed!** 🌟
+</div>
+
