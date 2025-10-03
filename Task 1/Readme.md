@@ -127,6 +127,6 @@ By completing Task 1, I was able to:
 **RAGUL T — RISC-V SoC Tapeout (VSD)**  
 
 <div align="center">
-🌟 **End of Task 1 — Successfully Completed!** 🌟
+🌟<b>End of Task 1 — Successfully Completed!</b> 🌟
 </div>
 
