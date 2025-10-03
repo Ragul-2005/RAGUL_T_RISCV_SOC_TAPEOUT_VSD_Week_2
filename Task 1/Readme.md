@@ -12,6 +12,10 @@ A **System-on-Chip (SoC)** is an integrated circuit that combines all major comp
 3. **Peripherals (UART, SPI, I²C, GPIO, Timers):** Enable communication with external devices.  
 4. **Interconnect (Bus/Fabric):** Provides a communication backbone between CPU, memory, and peripherals (e.g., AMBA AHB/AXI).  
 
+<p align="center">
+  <img src="https://github.com/Ragul-2005/RAGUL_T_RISCV_SOC_TAPEOUT_VSD_Week_2/blob/main/Task%201/Images/Components.png?raw=true" width="600"/>
+</p>
+
 ---
 
 ### 🌟 Why SoCs Are PowerFul  
