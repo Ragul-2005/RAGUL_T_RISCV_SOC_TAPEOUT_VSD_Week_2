@@ -6,7 +6,7 @@ A **System-on-Chip (SoC)** is an integrated circuit that combines all major comp
 
 ---
 
-## 🧩 Components of a Typical SoC  
+### 🧩 Components of a Typical SoC  
 1. **CPU (Processor Core):** Executes program instructions and performs computation.  
 2. **Memory (SRAM, DRAM, Flash):** Stores instructions, data, and intermediate results.  
 3. **Peripherals (UART, SPI, I²C, GPIO, Timers):** Enable communication with external devices.  
@@ -32,6 +32,10 @@ A **System-on-Chip (SoC)** is an integrated circuit that combines all major comp
 - 🚗 **Automotive systems** – ADAS, infotainment, and autonomous vehicle controllers.  
 - 🤖 **Embedded electronics** – drones, robotics, and wearables.  
 
+<p align="center">
+  <img src="https://github.com/Ragul-2005/RAGUL_T_RISCV_SOC_TAPEOUT_VSD_Week_2/blob/main/Task%201/Images/Applications.png?raw=true" width="600"/>
+</p>
+
 ---
 
 ### 🏆 Some Popular SoCs You Might Know  
@@ -39,6 +43,10 @@ A **System-on-Chip (SoC)** is an integrated circuit that combines all major comp
 - 📱 **Qualcomm Snapdragon series** – used in Android smartphones.  
 - 🥧 **Raspberry Pi SoC (Broadcom BCM2711)** – used in Raspberry Pi 4.  
 - 🎮 **NVIDIA Tegra series** – used in Jetson devices and some tablets.  
+
+<p align="center">
+  <img src="https://github.com/Ragul-2005/RAGUL_T_RISCV_SOC_TAPEOUT_VSD_Week_2/blob/main/Task%201/Images/Popular%20Soc%20Companies.png?raw=true" width="600"/>
+</p>
 
 ---
 
@@ -49,3 +57,26 @@ A **System-on-Chip (SoC)** is an integrated circuit that combines all major comp
 - 🐞 **Debugging difficulty**: Complex interactions between CPU, memory, and peripherals require advanced tools.  
 
 ---
+
+## 🧩 Types of SoCs
+
+1. **Application-Specific SoC (ASIC)** – 🏭  
+   - Designed for a specific application, like smartphone processors or graphics chips.  
+   - Highly optimized for performance and power efficiency.  
+
+2. **General-Purpose SoC** – 💻  
+   - Can run multiple applications and support standard operating systems.  
+   - Examples: Raspberry Pi SoCs, NXP i.MX series.  
+
+3. **Microcontroller SoC (MCU)** – 🤖  
+   - Includes CPU, memory, and peripherals on a single chip for embedded applications.  
+   - Common in IoT devices, sensors, and automotive controllers.  
+
+4. **Digital Signal Processor SoC (DSP SoC)** – 🎵  
+   - Optimized for signal processing tasks like audio, video, or communications.  
+   - Used in smartphones, media players, and telecom devices.  
+
+5. **FPGA-Based SoC** – ⚡  
+   - Combines programmable logic (FPGA) with CPU cores and peripherals.  
+   - Flexible for prototyping or specialized computing tasks.  
+
