@@ -40,3 +40,18 @@ These are the key RTL modules of the BabySoC:
 | `vsdbabysoc.v` | Top-level integration of CPU + PLL + DAC.       |
 | `testbench.v`  | Stimulus generator and monitor for simulation.  |
 </div>
+
+---
+
+## 🧠 Step 3 – Set Up Python Environment & SandPiper SaaS
+
+The RISC-V core (`rvmyth.tlv`) needs to be converted from TL-Verilog to standard Verilog.
+
+```bash
+python3 -m venv sp_env
+source sp_env/bin/activate
+pip install pyyaml click sandpiper-saas
+sandpiper-saas -i ./src/module/rvmyth.tlv -o rvmyth.v --bestsv --noline -p verilog --outdir ./src/module/
+```
+
+
