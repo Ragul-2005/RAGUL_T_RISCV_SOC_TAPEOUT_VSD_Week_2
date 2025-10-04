@@ -93,6 +93,10 @@ gtkwave pre_synth_sim.vcd
   <img src="https://github.com/Ragul-2005/RAGUL_T_RISCV_SOC_TAPEOUT_VSD_Week_2/blob/main/Task%202/Images/GTKWave_Output.png?raw=true" width="600"/>
 </p>
 
+## 📘 Overview
+This document presents an analysis of the **PLL (Phase-Locked Loop)** waveform obtained from the pre-synthesis simulation (`pre_synth_sim.vcd`).  
+The captured waveform was viewed using **GTKWave** and focuses on reference (`REF`), VCO control, enable logic, and real-valued analog feedback variables.
+
 
 
 
