@@ -1,5 +1,12 @@
 <div align="center"> <h1>📘 Week2 — BabySoC Fundamentals & Functional Modelling </h1></div>
 
+<div>
+  ![Status](https://img.shields.io/badge/Status-Completed-brightgreen?style=for-the-badge)
+![Tasks](https://img.shields.io/badge/Tasks-2_Completed-blue?style=for-the-badge)
+![Week](https://img.shields.io/badge/Week-2_Overview-orange?style=for-the-badge)
+
+</div>
+
 ## 📌 Overview  
 This folder contains my completed work for **Week2** of the RISC-V SoC Tapeout Program.  
 It covers two major tasks:  
