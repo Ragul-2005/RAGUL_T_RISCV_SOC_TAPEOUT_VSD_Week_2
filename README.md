@@ -68,8 +68,13 @@ The outcome includes both **theoretical understanding of SoC fundamentals** and 
 
 ---
 
-✍️ *Prepared by:<br>  
-RAGUL T — RISC-V SoC Tapeout (VSD)*  
+<div align="justify">
+
+**👨‍💻 Participant:** Ragul T  
+📧 tha.ragul2005@gmail.com
+www.linkedin.com/in/ragul-thangavadivelan-9261b0290
+
+</div>
 
 <div align="center">
 🌟 End of Week 2 — Successfully Completed! 🌟
