@@ -105,7 +105,6 @@ The captured waveform was viewed using **GTKWave** and focuses on reference (`RE
 | **refpd** | ~283 ns | Reference period difference |
 | **Lock** | ✅ Achieved | Stable output and DAC feedback |
 
----
 
 ### 📊 Signal Observations
 
