@@ -72,7 +72,6 @@ The outcome includes both **theoretical understanding of SoC fundamentals** and 
 
 **👨‍💻 Participant:** Ragul T  
 📧 tha.ragul2005@gmail.com
-![LinkedIn](www.linkedin.com/in/ragul-thangavadivelan-9261b0290)
 
 </div>
 
