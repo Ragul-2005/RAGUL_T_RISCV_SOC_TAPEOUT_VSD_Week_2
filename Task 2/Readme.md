@@ -97,6 +97,30 @@ gtkwave pre_synth_sim.vcd
 This document presents an analysis of the **PLL (Phase-Locked Loop)** waveform obtained from the pre-synthesis simulation (`pre_synth_sim.vcd`).  
 The captured waveform was viewed using **GTKWave** and focuses on reference (`REF`), VCO control, enable logic, and real-valued analog feedback variables.
 
+## 🔹 Key Observations
 
+<div align="center">
+| Signal | Description | Observed Behavior |
+|--------|--------------|------------------|
+| **CLK** | Primary simulation clock | Stable toggling, consistent period. |
+| **EN** | PLL enable control | Logic `1` → PLL active during capture window. |
+| **ENb_CP**, **ENb_VCO** | Charge pump & VCO enable lines | Asserted (`ENb_VCO=1`), indicating VCO activation; `ENb_CP=x` likely an initialization artifact. |
+| **REF** | Reference input signal | Logic `0` in snapshot — reference phase steady. |
+| **VCO_IN** | Internal VCO control signal | Regular toggling, used for frequency feedback. |
+| **OUT[9:0]** | Analog output representation | Gradual stabilization from ~0.18 → 0.09, representing analog convergence. |
+| **Dext[10:0]** | External DAC output codes | Digital equivalents showing decreasing ramp (0x9E → 0x9B → 0x99 → 0x88 → ...). |
+</div>
+---
+
+## ⏱️ Measured Timing Parameters
+
+<div align="center">
+| Parameter | Meaning | Observed Value | Notes |
+|------------|----------|----------------|-------|
+| **lastedge** | Timestamp of last VCO edge | `42302.84 ns` | Consistent edge capture. |
+| **period** | VCO output period | `≈ 35.416 ns` | Equivalent to ~28.3 MHz oscillation frequency. |
+| **refpd** | Reference period difference | `≈ 283.33 ns` | Matches reference clock’s expected phase period. |
+</div>
+---
 
 
