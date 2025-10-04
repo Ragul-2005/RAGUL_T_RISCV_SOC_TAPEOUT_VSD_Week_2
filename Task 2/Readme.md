@@ -57,3 +57,26 @@ sandpiper-saas -i ./src/module/rvmyth.tlv -o rvmyth.v --bestsv --noline -p veril
   <img src="https://github.com/Ragul-2005/RAGUL_T_RISCV_SOC_TAPEOUT_VSD_Week_2/blob/main/Task%202/Images/Screenshot%20from%202025-10-04%2019-13-56.png?raw=true" width="600"/>
 </p>
 
+This produces `rvmyth.v` inside the `src/module/` directory.
+
+---
+
+## ▶️ Step 4 – Pre-Synthesis Simulation
+
+Create an output directory and compile all modules for **functional (behavioral) simulation**:
+
+```bash
+mkdir -p output/pre_synth_sim
+iverilog -o output/pre_synth_sim/pre_synth_sim.out -DPRE_SYNTH_SIM \
+-I src/include -I src/module \
+src/module/testbench.v
+vvp output/pre_synth_sim/pre_synth_sim.out
+```
+This generates `pre_synth_sim.vcd`.
+View the waveform in GTKWave:
+
+```bash
+gtkwave pre_synth_sim.vcd
+```
+
+
