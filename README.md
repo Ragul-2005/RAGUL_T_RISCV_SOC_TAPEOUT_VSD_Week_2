@@ -59,6 +59,15 @@ The outcome includes both **theoretical understanding of SoC fundamentals** and 
 
 ---
 
+## 📚 Resources
+
+* 🔗 [RISC-V Core – Shivani Shah](https://github.com/shivanishah269/risc-v-core)
+* 📘 [SoC Fundamentals – Hemanth Kumar](https://github.com/hemanthkumardm/SFAL-VSD-SoC-Journey/blob/main/11.%20Fundamentals%20of%20SoC%20Design/README.md)
+* 🛠 [VSD SoC Journey – Spatha (Day 5)](https://github.com/spatha0011/spatha_vsd-hdp/tree/main/Day5)
+* 🌱 [VSDBabySoC – Manili](https://github.com/manili/VSDBabySoC)
+
+---
+
 ✍️ *Prepared by:<br>  
 RAGUL T — RISC-V SoC Tapeout (VSD)*  
 
