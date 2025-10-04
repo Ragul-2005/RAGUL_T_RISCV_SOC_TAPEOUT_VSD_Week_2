@@ -49,8 +49,8 @@ It covers two major tasks:
   - Reset correctly initializes the system  
   - Clock toggling verified at 10ns period  
   - Dataflow between CPU and memory (write & read) confirmed functional  
-- 📄 Document: [Task 2 - BabySoC Functional Modelling](./Task%202%20-%20BabySoC%20Functional%20Modelling.md)  
-
+- 📄 Document: [Task 2 - BabySoC Functional Modelling](https://github.com/Ragul-2005/RAGUL_T_RISCV_SOC_TAPEOUT_VSD_Week_2/blob/55c8ec59f49764ee249758fa884e52d11252c42c/Task%202/Readme.md)
+  
 ---
 
 ## ✨ Status  
