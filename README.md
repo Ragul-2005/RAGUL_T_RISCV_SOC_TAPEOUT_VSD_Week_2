@@ -31,10 +31,10 @@ It covers two major tasks:
   - Interconnect (Bus/Fabric)  
 - Learned why **BabySoC** is used as a **simplified model** for SoC education.  
 - Explored the role of **functional modelling** in validating SoC design before RTL and physical implementation.  
-- 📄 Document: [Task 1 - SoC Fundamentals & BabySoC Modelling](./Task%201%20-%20SoC%20Fundamentals%20and%20BabySoC%20Modelling.md)  
+- 📄 Document: [Task 1 - SoC Fundamentals & BabySoC Modelling](https://github.com/Ragul-2005/RAGUL_T_RISCV_SOC_TAPEOUT_VSD_Week_2/blob/55c8ec59f49764ee249758fa884e52d11252c42c/Task%201/Readme.md
+)  
 
 ---
-
 ### 🛠️ Task 2: BabySoC Functional Modelling (Hands-On Labs)  
 - Installed and used:  
   - 📟 **Icarus Verilog (Iverilog)** – for compiling Verilog code  
