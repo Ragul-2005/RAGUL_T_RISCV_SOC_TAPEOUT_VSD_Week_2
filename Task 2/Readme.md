@@ -79,4 +79,9 @@ View the waveform in GTKWave:
 gtkwave pre_synth_sim.vcd
 ```
 
+<p align="center">
+  <img src="https://github.com/Ragul-2005/RAGUL_T_RISCV_SOC_TAPEOUT_VSD_Week_2/blob/main/Task%202/Images/GTKWave_Output.png?raw=true" width="600"/>
+</p>
+
+
 
