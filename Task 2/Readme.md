@@ -142,7 +142,12 @@ Successfully generated Verilog from TLV,
 Verified logical behavior in pre-synthesis simulation,
 
 ---
+✍️ *Prepared by:<br>  
+**RAGUL T — RISC-V SoC Tapeout (VSD)**  
 
+<div align="center">
+🌟<b>End of Task 2 — Successfully Completed!</b> 🌟
+</div>
 
 
 
