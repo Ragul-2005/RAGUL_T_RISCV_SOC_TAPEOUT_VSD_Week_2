@@ -76,7 +76,7 @@ iverilog -o output/pre_synth_sim/pre_synth_sim.out \
 cd output/pre_synth_sim
 ./pre_synth_sim.out
 ```
-# 📊 View in GTKWave:
+- 📊 View in GTKWave:
 
 ```bash
 gtkwave pre_synth_sim.vcd
