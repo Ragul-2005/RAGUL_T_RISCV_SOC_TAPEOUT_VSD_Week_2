@@ -1,14 +1,13 @@
 <div align="center"> <h1>📘 Week2 — BabySoC Fundamentals & Functional Modelling </h1></div>
 
 
-![Status](https://img.shields.io/badge/Status-Completed-brightgreen?style=for-the-badge)
-![Tasks](https://img.shields.io/badge/Tasks-2_Completed-blue?style=for-the-badge)
-![Week](https://img.shields.io/badge/Week-2_Overview-orange?style=for-the-badge)
 ![Week](https://img.shields.io/badge/Week-2-blue?style=for-the-badge)
 ![Tasks](https://img.shields.io/badge/Tasks-2_Completed-brightgreen?style=for-the-badge)
 ![Focus](https://img.shields.io/badge/Focus-SoC_Theory%20%26%20Functional_Modelling-purple?style=for-the-badge)
 ![Tool: Icarus Verilog](https://img.shields.io/badge/Tool-Icarus%20Verilog-lightblue?style=for-the-badge)
 ![Tool: GTKWave](https://img.shields.io/badge/Tool-GTKWave-orange?style=for-the-badge)
+![Status](https://img.shields.io/badge/Status-Completed-brightgreen?style=for-the-badge)
+
 
 
 </div>
