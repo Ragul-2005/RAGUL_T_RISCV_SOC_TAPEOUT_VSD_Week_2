@@ -1,9 +1,12 @@
 <div align="center"><h1>Task 1: Theroy of BabySoC Fundamentals & Functional Modelling</h1></div>
 
+<div align="center">
+  
 ![Task](https://img.shields.io/badge/Task-1-blue?style=for-the-badge)
 ![Focus](https://img.shields.io/badge/Focus-BabySoC_Functional_Modelling-orange?style=for-the-badge)
 ![Status](https://img.shields.io/badge/Status-Completed-brightgreen?style=for-the-badge)
 
+</div>
 
 ## 📘 What is a System-on-Chip (SoC)?  
 
