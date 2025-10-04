@@ -128,7 +128,6 @@ The captured waveform was viewed using **GTKWave** and focuses on reference (`RE
 | Functional Modelling      | Icarus Verilog + GTKWave | Verified SoC logic               |
 | Visualization             | GTKWave                  | Observed clocks, resets, outputs |
 
----
 
 ## 🧾 Key Insights & Learnings
 
@@ -136,7 +135,6 @@ The captured waveform was viewed using **GTKWave** and focuses on reference (`RE
 * Functional simulation validates SoC logic before synthesis.
 * Open-source tools (Icarus, GTKWave) form a complete verification chain.
 
----
 ## 🧩 Conclusion
 
 This completes the functional modelling phase of the BabySoC under Week 2 of the RISC-V SoC Tapeout Journey.
