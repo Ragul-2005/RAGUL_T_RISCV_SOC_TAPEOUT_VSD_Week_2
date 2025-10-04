@@ -1,5 +1,12 @@
 <div align="center"> <h1>🛠️ Task 2 – Practical BabySoC Functional Modelling </h1></div>
 
+![Task](https://img.shields.io/badge/Task-2-blue?style=for-the-badge)
+![Focus](https://img.shields.io/badge/Focus-BabySoC_Functional_Modelling-orange?style=for-the-badge)
+![Status](https://img.shields.io/badge/Status-Completed-brightgreen?style=for-the-badge)
+![Tool: Icarus Verilog - Simulation](https://img.shields.io/badge/Tool-Icarus%20Verilog%20(Simulation)-lightblue?style=for-the-badge)
+![Tool: GTKWave - Waveform Analysis](https://img.shields.io/badge/Tool-GTKWave%20(Waveform_Analysis)-orange?style=for-the-badge)
+
+
 ## 📌 Overview  
 This task focuses on the **practical side of BabySoC design** through functional modelling.  
 Using **Icarus Verilog (iverilog)** and **GTKWave**, I compiled and simulated BabySoC modules to analyze their behavior.  
