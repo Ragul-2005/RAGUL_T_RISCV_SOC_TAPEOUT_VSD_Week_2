@@ -87,7 +87,7 @@ gtkwave pre_synth_sim.vcd
 ## ▶️ Step 4 – Pre-Synthesis Waveform
 
 <p align="center">
-  <img src="https://github.com/Ragul-2005/RAGUL_T_RISCV_SOC_TAPEOUT_VSD_Week_2/blob/main/Task%202/Images/Screenshot%20from%202025-10-04%2021-00-46.png?raw=true" width="600"/>
+  <img src="https://github.com/Ragul-2005/RAGUL_T_RISCV_SOC_TAPEOUT_VSD_Week_2/blob/main/Task%202/Images/GTKWave_Output.png?raw=true" width="600"/>
 </p>
 
 
