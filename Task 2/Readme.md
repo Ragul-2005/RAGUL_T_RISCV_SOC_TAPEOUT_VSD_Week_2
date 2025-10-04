@@ -93,11 +93,11 @@ gtkwave pre_synth_sim.vcd
   <img src="https://github.com/Ragul-2005/RAGUL_T_RISCV_SOC_TAPEOUT_VSD_Week_2/blob/main/Task%202/Images/GTKWave_Output.png?raw=true" width="600"/>
 </p>
 
-## 📘 Overview
+### 📘 Overview
 This document presents an analysis of the **PLL (Phase-Locked Loop)** waveform obtained from the pre-synthesis simulation (`pre_synth_sim.vcd`).  
 The captured waveform was viewed using **GTKWave** and focuses on reference (`REF`), VCO control, enable logic, and real-valued analog feedback variables.
 
-## ⚙️ Key Results
+### ⚙️ Key Results
 
 | Parameter | Value | Notes |
 |------------|--------|-------|
@@ -107,7 +107,7 @@ The captured waveform was viewed using **GTKWave** and focuses on reference (`RE
 
 ---
 
-## 📊 Signal Observations
+### 📊 Signal Observations
 
 | Signal | Description | Behavior |
 |--------|--------------|-----------|
@@ -121,11 +121,32 @@ The captured waveform was viewed using **GTKWave** and focuses on reference (`RE
 | **Dext[10:0]** | DAC output | Decreasing ramp (0x9E → 0x88) |
 
 ---
+## 📜 Step 7 – Results Summary
 
-## ✅ Conclusion
-PLL locks correctly and maintains a stable oscillation frequency (~28.3 MHz).  
-Minor cleanup recommended for charge pump enable (`ENb_CP`) initialization.
+| Stage                     | Tool                     | Outcome                          |
+| ------------------------- | ------------------------ | -------------------------------- |
+| Functional Modelling      | Icarus Verilog + GTKWave | Verified SoC logic               |
+| Visualization             | GTKWave                  | Observed clocks, resets, outputs |
 
 ---
+
+## 🧾 Key Insights & Learnings
+
+* TL-Verilog → Verilog translation enables modular reuse.
+* Functional simulation validates SoC logic before synthesis.
+* Open-source tools (Icarus, GTKWave) form a complete verification chain.
+
+---
+## 🧩 Conclusion
+
+This completes the functional modelling phase of the BabySoC under Week 2 of the RISC-V SoC Tapeout Journey.
+We have:
+Successfully generated Verilog from TLV,
+Verified logical behavior in pre-synthesis simulation,
+
+---
+
+
+
 
 
