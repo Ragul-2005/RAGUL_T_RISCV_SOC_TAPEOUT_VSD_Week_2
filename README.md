@@ -16,9 +16,8 @@
 This folder contains my completed work for **Week2** of the RISC-V SoC Tapeout Program.  
 It covers two major tasks:  
 
-1. [Task 1 - Theory: SoC Fundamentals & BabySoC Modelling](./Task%201%20-%20SoC%20Fundamentals%20and%20BabySoC%20Modelling.md)  
+1. [Task 1 - Theory: SoC Fundamentals & BabySoC Modelling](https://github.com/Ragul-2005/RAGUL_T_RISCV_SOC_TAPEOUT_VSD_Week_2/tree/c40f8a2bc2f61bca82f68a1c2a87f1fef5613264/Task%201)  
 2. [Task 2 - Labs: BabySoC Functional Modelling using Icarus Verilog & GTKWave](./Task%202%20-%20BabySoC%20Functional%20Modelling.md)  
-
 ---
 
 ## ✅ Completed Tasks  
