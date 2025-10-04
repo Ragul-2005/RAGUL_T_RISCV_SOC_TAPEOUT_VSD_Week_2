@@ -63,17 +63,20 @@ This produces `rvmyth.v` inside the `src/module/` directory.
 
 ## ▶️ Step 4 – Pre-Synthesis Simulation
 
-Create an output directory and compile all modules for **functional (behavioral) simulation**:
+### 🔹Pre-Synthesis Simulation
 
 ```bash
 mkdir -p output/pre_synth_sim
-iverilog -o output/pre_synth_sim/pre_synth_sim.out -DPRE_SYNTH_SIM \
--I src/include -I src/module \
-src/module/testbench.v
-vvp output/pre_synth_sim/pre_synth_sim.out
+
+iverilog -o output/pre_synth_sim/pre_synth_sim.out \
+  -DPRE_SYNTH_SIM \
+  -I src/include -I src/module \
+  src/module/testbench.v
+
+cd output/pre_synth_sim
+./pre_synth_sim.out
 ```
-This generates `pre_synth_sim.vcd`.
-View the waveform in GTKWave:
+# 📊 View in GTKWave:
 
 ```bash
 gtkwave pre_synth_sim.vcd
@@ -84,7 +87,7 @@ gtkwave pre_synth_sim.vcd
 </p>
 
 ---
-## ▶️ Step 4 – Pre-Synthesis Waveform
+## ▶️ Step 5 – Pre-Synthesis Waveform
 
 <p align="center">
   <img src="https://github.com/Ragul-2005/RAGUL_T_RISCV_SOC_TAPEOUT_VSD_Week_2/blob/main/Task%202/Images/GTKWave_Output.png?raw=true" width="600"/>
